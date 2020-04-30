@@ -4,8 +4,8 @@ import json
 import os.path
 import re
 
-originalPathTarget = "C:\Users\emanoel.silva\Documents\workspace\extrator-excel-json\\file-en.json"
-parsedPathTarget = "C:\Users\emanoel.silva\Documents\workspace\extrator-excel-json\\file-en-parsed.json" 
+originalPathTarget = r'C:\...........\extrator-excel-json\file-en.json'
+parsedPathTarget = r'C:\...........\extrator-excel-json\file-en-parsed.json'
 
 if os.path.isfile(originalPathTarget) and os.path.isfile(parsedPathTarget):
     with open(originalPathTarget) as originalFile, open(parsedPathTarget, "w") as parsedFile:
