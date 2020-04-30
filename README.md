@@ -44,9 +44,19 @@ Antes de executar o parser, realizei o seguinte tratamento nos dados:
         "LOGOUT": "Sair"	Logout
     }
 }	
-	
 ```
+
 Ou seja, concatenei as colunas A e B.
+Os dados tratados foram salvos em um arquivo de texto.
+
+O parser solicita dois arquivos: (i) o arquivo original, tratado acima e (ii) um arquivo de destino, onde o  resultado será escrito.
+
+Segue trecho do código fonte responsável por apontar para esses dois arquivos:
+
+```
+originalPathTarget = r'.\file-en.json'
+parsedPathTarget = r'.\file-en-parsed.json'
+```
 
 O resultado do parser foi:
 ```
