@@ -1,10 +1,10 @@
 # Descrição
 
-Precisei converter um JSON escrito em um arquivo .csv. Nele haviam strings i18n.
-Suas respectivas traduções estavam em numa coluna, logo ao lado.
-A ideia era extrair o valor traduzido da coluna B e inflar no seu respectivo valor na coluna A
+Precisei converter um JSON escrito em um arquivo .csv. 
+No .csv havia uma coluna com strings i18n. Suas respectivas traduções estavam em numa coluna, logo ao lado.
+A ideia era extrair o valor traduzido na coluna B e inflar no seu respectivo valor na coluna A.
 
-## Exemplo:
+## Ilustração:
 ```
 | COLUNA A (JSON)                                 |  COLUNA B(Tradução) |
 |-------------------------------------------------|---------------------|
@@ -26,6 +26,7 @@ A ideia era extrair o valor traduzido da coluna B e inflar no seu respectivo val
 | }                                               |                     |
 ```
 
+## Execução: 
 Antes de executar o parser, realizei o seguinte tratamento nos dados:
 ```
 {	
