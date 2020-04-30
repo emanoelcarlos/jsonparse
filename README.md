@@ -28,44 +28,42 @@ A ideia era extrair o valor traduzido da coluna B e inflar no seu respectivo val
 
 Antes de executar o parser, realizei o seguinte tratamento nos dados:
 ```
-{		
+{	
     "LOGIN": {	
-        "EMAIL": "Email"email
-        "PASSWORD": "Senha"Password
-        "CONFIRM": "Entrar"Log in
-        "FORGOT": "Esqueci minha senha"I forgot my password
-        "TITLE": "Evoy"Evoy
-        "FORGOT_QUESTION": "Esqueceu sua senha?"Did you forget your password?
-        "FORGOT_DESCRIPTION": "Não se preocupe, enviaremos um link para que possa redefinir sua senha."Don't worry, a link to redefine your password will be sent to you.
-        "TYPE_EMAIL": "Digite seu email"Type your email
-        "SEND": "Enviar"Send
-    },
+        "EMAIL": "Email",	email
+        "PASSWORD": "Senha",	Password
+        "CONFIRM": "Entrar",	Log in
+        "FORGOT": "Esqueci minha senha",	I forgot my password 
+        "FORGOT_QUESTION": "Esqueceu sua senha?",	Did you forget your password?
+        "TYPE_EMAIL": "Digite seu email",	Type your email
+        "SEND": "Enviar"	Send
+    },	
     "NAVBAR":{	
-        "HOME": "Home"Home
-        "IMPORT_DATA": "Importar Dados"Import Data
-        "LOGOUT": "Sair"Logout
-    } 
+        "HOME": "Home",	Home
+        "IMPORT_DATA": "Importar Dados",	Import Data
+        "LOGOUT": "Sair"	Logout
+    }
 }	
+	
 ```
 Ou seja, concatenei as colunas A e B.
-O resultado do parser:
+
+O resultado do parser foi:
 ```
 {		
-  "LOGIN": {	
-    "EMAIL": "Email",
-    "PASSWORD": "Senha",
-    "CONFIRM": "Entrar",
-    "FORGOT": "Esqueci minha senha",
-    "TITLE": "Evoy",
-    "FORGOT_QUESTION": "Esqueceu sua senha?",
-    "FORGOT_DESCRIPTION": "Não se preocupe, enviaremos um link para que possa redefinir sua senha.",
-    "TYPE_EMAIL": "Digite seu email",
-    "SEND": "Enviar"
-  },
-  "NAVBAR":{	
-    "HOME": "Home",
-    "IMPORT_DATA": "Importar Dados",
-    "LOGOUT": "Sair"
-  } 
+"LOGIN": {	
+"EMAIL": "email",
+"PASSWORD": "Password",
+"CONFIRM": "Log in",
+"FORGOT": "I forgot my password", 
+"FORGOT_QUESTION": "Did you forget your password?", 
+"TYPE_EMAIL": "Type your email",
+"SEND": "Send"
+},	
+"NAVBAR":{	
+"HOME": "Home",
+"IMPORT_DATA": "Import Data",
+"LOGOUT": "Logout"
+}
 }	
 ```	
