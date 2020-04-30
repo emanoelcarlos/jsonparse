@@ -1,0 +1,19 @@
+{		
+    "LOGIN": {	
+"EMAIL": "Email",
+"PASSWORD": "Senha",
+"CONFIRM": "Entrar",
+"FORGOT": "Esqueci minha senha",
+"TITLE": "Evoy",
+"FORGOT_QUESTION": "Esqueceu sua senha?",
+"FORGOT_DESCRIPTION": "Não se preocupe, enviaremos um link para que possa redefinir sua senha.",
+"TYPE_EMAIL": "Digite seu email",
+"SEND": "Enviar"
+    },
+    "NAVBAR":{	
+"HOME": "Home",
+"IMPORT_DATA": "Importar Dados",
+"LOGOUT": "Sair"
+    } 
+}	
+	

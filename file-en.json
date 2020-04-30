@@ -1,0 +1,19 @@
+{		
+    "LOGIN": {	
+        "EMAIL": "Email"email
+        "PASSWORD": "Senha"Password
+        "CONFIRM": "Entrar"Log in
+        "FORGOT": "Esqueci minha senha"I forgot my password
+        "TITLE": "Evoy"Evoy
+        "FORGOT_QUESTION": "Esqueceu sua senha?"Did you forget your password?
+        "FORGOT_DESCRIPTION": "Não se preocupe, enviaremos um link para que possa redefinir sua senha."Don't worry, a link to redefine your password will be sent to you.
+        "TYPE_EMAIL": "Digite seu email"Type your email
+        "SEND": "Enviar"Send
+    },
+    "NAVBAR":{	
+        "HOME": "Home"Home
+        "IMPORT_DATA": "Importar Dados"Import Data
+        "LOGOUT": "Sair"Logout
+    } 
+}	
+	
