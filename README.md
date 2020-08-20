@@ -1,7 +1,7 @@
 # Descrição
 
-Precisei converter um JSON escrito em um arquivo .csv. 
-No .csv havia uma coluna com strings i18n. Suas respectivas traduções estavam em numa coluna, logo ao lado.
+Precisei converter um JSON escrito em um arquivo .csv (!).
+No .csv (antigo JSON) havia uma coluna com chaves de strings i18n. Suas respectivas traduções estavam em uma coluna logo ao lado.
 A ideia era extrair o valor traduzido na coluna B e inflar no seu respectivo valor na coluna A.
 
 ## Ilustração:
